@@ -12,7 +12,7 @@ Tertiary Color (Space Cadet): #393659
 :root {
     --text-color: #FFFFFF;
     --primary-color: #0C080A;
-    --secondary-color: #06194B;
+    --secondary-color: #646464;
     --visited-color: #393659;
     --hover-color: #5C5CFF;
     --active-color: #5C5CFF;
@@ -41,7 +41,6 @@ body {
 * {
     box-sizing: border-box;
 }
-
 
 
 h1 {
