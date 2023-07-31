@@ -13,11 +13,11 @@
         <!-- Header including the logo and the main navigation -->
         <header class="page-header">
             <!-- Add your logo here -->
-            <img src="img/AbigailRamirez_Logo.svg" alt="my logo placeholder" id="my_logo" class="page-header__item" >
+            <img src="img/AtoZLogo.png" alt="my logo placeholder" id="my_logo" class="page-header__item" >
             <nav class="main-navigation page-header__item">
                 <ul role="menubar" class="navigation-list">
                   <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
                   </li>
                   <li role="presentation">
                     <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
@@ -32,65 +32,196 @@
               </nav>
         </header>
         <!-- Main content -->
-        <section>
-            <h1>Work</h1>
+    <section>
       <div class="grid">
         <!-- Grid items will live here -->
         <div class="grid__item">
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/ToDoList_Screenshot.png" height="250px" width="250px" >
+          </div>
+          <div class="grid_item_text">
             <h2>To Do List App</h2>
-            <img src="img/ToDoList_Screenshot.png" height="250px" width="250px" >
             <p>
-              To-Do List App is a simple web application that allows users to manage their daily tasks and stay organized. It provides an intuitive interface for creating, updating, and completing to-do items.            </p>
-            <a href="https://github.com/AbigailRamirez/to-do-list-app" target="_blank">See project on GitHub</a>
+              To-Do List App is a simple web application that allows users to manage their daily tasks and stay organized. It provides an intuitive interface for creating, updating, and completing to-do items.            
+            </p>
+          </div>
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/to-do-list-app','_blank')"
+            >
+              See project on GitHub
+            </button>
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://abigailramirez.github.io/to-do-list-app/','_blank')"
+            >
+            See live project
+            </button>
+            
+          </div>
+        
         </div>
         <div class="grid__item">
-          <h2>Pokedex App</h2>
-          <img src="img/Pokedex_Screenshot1.png" height="150px" width="225px">
-          <img src="img/Pokedex_Screenshot2.png" height="150px" width="225px">
-          <p>
-            A small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.          </p>
-          <a href="https://github.com/AbigailRamirez/simple-js-app" target="_blank">See project on GitHub</a>
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/Pokedex_Screenshot1.png" height="150px" width="225px">
+            <img class="grid_item_img" src="img/Pokedex_Screenshot2.png" height="150px" width="225px">
+          </div>
+          <div class="grid_item_text">
+            <h2>Pokedex App</h2>
+            <p>
+              A small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.          
+            </p>
+          </div>
+
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/simple-js-app','_blank')"
+            >
+              See project on GitHub
+            </button>
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://abigailramirez.github.io/simple-js-app/','_blank')"
+            >
+            See live project
+            </button>
+          </div>
+
         </div>
+
          <div class="grid__item">
-          <h2>Movie API</h2>
-          <img src="img/MovieAPI.png" height="200px" width="300px">
-          <p>
-            Movie API is a backend server application built with Node.js and Express.js. It provides a RESTful API for accessing movie data and managing user accounts.          </p>
-          <a href="https://github.com/AbigailRamirez/myflix-api">See project on GitHub</a>
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/MovieAPI.png" height="200px" width="300px">
+          </div>
+          <div class="grid_item_text">
+            <h2>Movie API</h2>
+            <p>
+              Movie API is a backend server application built with Node.js and Express.js. It provides a RESTful API for accessing movie data and managing user accounts.          
+            </p>
+          </div>
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/myflix-api','_blank')"
+            >
+              See project on GitHub
+            </button>
+  
+            
+          </div>
          </div>
-         <div class="grid__item">
+
+
+        <div class="grid__item">
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/MyFlixReact_Screenshot.png" height="250px" width="450px" >
+          </div>
+          <div class="grid_item_text">
             <h2>Movie App React Frontend</h2>
-            <img src="img/MyFlixReact_Screenshot.png" height="250px" width="450px" >
             <p>
-              The objective of this project was to build the client-side of the myFlix app using React, based on its existing server-side code (REST API and database). The goal was to create a seamless user experience by combining server-side and client-side development and in conjuction with the other half of the project as previously mentioned specifically utilizes the MERN (MongoDB, Express, React, and Node.js) stack.            </p>
-            <a href="https://github.com/AbigailRamirez/myflix-client" target="_blank">See project on GitHub</a>
-            <br>
-            <a href="https://filmeo-app.netlify.app/signup" target="_blank">See Hosted App</a>
+              The objective of this project was to build the client-side of the myFlix app using React, based on its existing server-side code (REST API and database). The goal was to create a seamless user experience by combining server-side and client-side development and in conjuction with the other half of the project as previously mentioned specifically utilizes the MERN (MongoDB, Express, React, and Node.js) stack.            
+            </p>
+          </div>
+
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/myflix-client','_blank')"
+            >
+              See project on GitHub
+            </button>
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://filmeo-app.netlify.app/signup','_blank')"
+            >
+            See live project
+            </button>
+            
+          </div>
+          
         </div>
+
+
         <div class="grid__item">
-          <h2>Meet App</h2>
-          <img src="img/Meet_Screenshot.png" height="250px" width="450px" >
-          <p>
-            MeetApp is a serverless, progressive web application built with React using a test-driven development technique. The application uses the Google Calendar API to fetch upcoming events. </p>
-          <a href="https://github.com/AbigailRamirez/meet" target="_blank">See project on GitHub</a>
+
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/Meet_Screenshot.png" height="250px" width="450px" >
+          </div>
+
+          <div class="grid_item_text">
+            <h2>Meet App</h2>
+            <p>
+              MeetApp is a serverless, progressive web application built with React using a test-driven development technique. The application uses the Google Calendar API to fetch upcoming events. 
+            </p>
+          </div>
+
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/meet','_blank')"
+            >
+              See project on GitHub
+            </button>
+                        
+          </div>
+
         </div>
+
+
         <div class="grid__item">
-          <h2>React Native Chat App</h2>
-          <!-- ADD IMAGE FROM APP-->
-          <img src="img/ChatApp_Screenshot1.PNG" height="250px" width="125px">
-          <img src="img/ChatApp_Screenshot2.PNG" height="250px" width="125px" >
-          <img src="img/ChatApp_Screenshot3.PNG" height="250px" width="125px" >
-          <p>
-            The objective of this project is to develop a mobile chat application using React Native. The application will allow users to engage in conversations, share images, and exchange location data. </p>
-          <a href="https://github.com/AbigailRamirez/chat-app">See project on GitHub</a>
+          <div class="grid_item_pics">
+            <img class="grid_item_img" src="img/ChatApp_Screenshot1.PNG" height="250px" width="125px" >
+            <img class="grid_item_img" src="img/ChatApp_Screenshot2.PNG" height="250px" width="125px" >
+            <img class="grid_item_img" src="img/ChatApp_Screenshot3.PNG" height="250px" width="125px" >
+            
+          </div>
+
+          <div class="grid_item_text">
+            <h2>React Native Chat App</h2>
+            <p>
+              The objective of this project is to develop a mobile chat application using React Native. The application will allow users to engage in conversations, share images, and exchange location data. 
+            </p>
+          </div>
+
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/chat-app','_blank')"
+            >
+              See project on GitHub
+            </button>
+            
+          </div>
         </div>
+
         <div class="grid__item">
-          <h2>Movie App Angular Frontend</h2>
-          <img src="img/Angular_Screenshot1.png" height="250px" width="425px" >
-          <img src="img/Angular_Screenshot2.png" height="375px" width="425px" >
-          <p>
-            Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. </p>
-          <a href="https://github.com/AbigailRamirez/myFlix-Angular-client">See project on GitHub</a>
+          <div class="grid_item_pics"> 
+            <img class="grid_item_img" src="img/Angular_Screenshot1.png" height="250px" width="425px" >
+          </div>
+          <div class="grid_item_text"> 
+            <h2>Movie App Angular Frontend</h2>
+            <p>
+              Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. 
+            </p>
+          </div>
+          <div class="grid_item_links">
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://github.com/AbigailRamirez/myFlix-Angular-client','_blank')"
+            >
+              See project on GitHub
+            </button>
+            <button 
+            class="grid_item_btn" 
+            onclick="window.open('https://abigailramirez.github.io/myFlix-Angular-client/welcome','_blank')"
+            >
+            See live project
+            </button>
+            
+          </div>
+        
         </div>
          
          
