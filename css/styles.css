@@ -171,6 +171,16 @@ a:hover, a:focus {
     height: 50px;
 }
 
+/*Case Study*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item {
+    grid-row: 1/span 3;
+    background-color: #5C5CFF;
+}
+
 /*WORK PAGE CONTENT*/
 /*grid*/
 
